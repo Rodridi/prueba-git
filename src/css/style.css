@@ -1,0 +1,53 @@
+.portada {
+  background-color: #000;
+  background-image: url(../assets/pinkfloyd.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.caratula {
+  /* background: #222; */
+  height: 300px;
+  width: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.padre-disco {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.disco {
+  background: #000;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  z-index: -1;
+  position: relative;
+  left: -65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-disco {
+  background: rgb(201, 24, 18);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: rgb(235, 57, 13);
+}
+
+.agujero {
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
